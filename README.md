@@ -24,18 +24,17 @@
 
 ### Установка
 
-1.  Клонируйте репозиторий: `git clone [your_repository_url]`
-2.  Перейдите в директорию: `cd [your_repository_directory]`
+1.  Клонируйте репозиторий: `git clone https://github.com/FelixCollinsProgammer/Firewall-HK-`
+2.  Перейдите в директорию: `cd [Директория файла .py]`
 
 ### Использование
 
-*   **Запуск интерактивного меню:** `sudo python3 network_guard.py --menu`
-*   **Активация фильтра на интерфейсе:** `sudo python3 network_guard.py <сетевой_интерфейс>` (например, `sudo python3 network_guard.py eth0`)
-*   **Добавить порты:** `sudo python3 network_guard.py --add <порт1,порт2,...>`
-*   **Удалить порты:** `sudo python3 network_guard.py --del <порт1,порт2,...>`
-*   **Показать текущие настройки:** `sudo python3 network_guard.py --show`
-*   **Просмотреть логи:** `sudo python3 network_guard.py --logs`
-*   **Помощь:** `sudo python3 network_guard.py --help`
+*   **Запуск интерактивного меню:** `sudo python3 network_guard1.py --menu`
+*   **Добавить порты:** `sudo python3 network_guard1.py --add <порт1,порт2,...>`
+*   **Удалить порты:** `sudo python3 network_guard1.py --del <порт1,порт2,...>`
+*   **Показать текущие настройки:** `sudo python3 network_guard1.py --show`
+*   **Просмотреть логи:** `sudo python3 network_guard1.py --logs`
+*   **Помощь:** `sudo python3 network_guard1.py --help`
 
 ## ⚙️ Конфигурация
 
